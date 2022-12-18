@@ -1,0 +1,22 @@
+header, main{
+	margin: 5vh 10vw;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+#cart-button{
+	background-color: none;
+	border: none;
+	border-radius: 50%;
+	padding: 5px;
+	cursor: pointer;
+}
+#cart-button img{
+	max-width: 32px;
+	max-height: 32px;
+}
+#cart-button:hover{
+	background-color: orange;
+}
